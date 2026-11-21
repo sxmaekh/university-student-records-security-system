@@ -1,0 +1,3 @@
+-- Phase 2: Security and Access Control
+-- Creates database roles, user accounts, permissions,
+-- and row-level security policies to restrict data access.
