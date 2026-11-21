@@ -1,0 +1,3 @@
+-- Phase 3: Database Auditing
+-- Creates audit functions and triggers to track changes
+-- made to student records and grade records.
