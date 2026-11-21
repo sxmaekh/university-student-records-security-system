@@ -1,7 +1,5 @@
 # university-student-records-security-system
 
-# University Student Records Security System
-
 ## Project Overview
 This project develops a secure university student records
 database using PostgreSQL 18 and pgAdmin 4.
