@@ -1,0 +1,3 @@
+-- Phase 4: Performance Optimization
+-- Contains database indexes and performance improvements
+-- designed to make queries run more efficiently.
