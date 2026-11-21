@@ -1,1 +1,3 @@
--- Database setup and sample data
+-- Phase 1: Database Setup
+-- Creates the university_records database structure,
+-- schemas, tables, relationships, and sample data.
