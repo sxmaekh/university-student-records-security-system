@@ -57,7 +57,7 @@ The `academics` schema contains five tables:
 - Compared query execution before and after indexing.
 - Reviewed PostgreSQL index usage statistics.
 
-Because the sample dataset is small, indexing only produced an inconsiquential performance improvement in the tested query.
+Because the sample dataset is small, indexing only produced an inconsequential performance improvement in the tested query.
 
 ### Phase 5: Backup and Recovery
 - Created a PostgreSQL database backup using `pg_dump`.
