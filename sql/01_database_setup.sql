@@ -69,11 +69,11 @@ CREATE TABLE IF NOT EXISTS academics.grades (
 );
 
 -- Verify all five tables exist
-SELECT table_name
+SELECT table_schema, table_name
 FROM information_schema.tables
-WHERE table_schema = 'academics'
+WHERE table_schema IN ('academics', 'audit')
   AND table_type = 'BASE TABLE'
-ORDER BY table_name;
+ORDER BY table_schema, table_name;
 
 -- ============================================
 -- Phase 1: Insert Sample Data
