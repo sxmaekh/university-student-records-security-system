@@ -57,7 +57,7 @@ The `academics` schema contains five tables:
 - Compared query execution before and after indexing.
 - Reviewed PostgreSQL index usage statistics.
 
-Because the sample dataset is small, indexing only produced an inconsequential performance improvement in the tested query.
+After indexing, query execution time decreased from 0.506 ms to 0.332 ms, representing an approximately 34.4% improvement. However, PostgreSQL continued using sequential scans because the sample dataset was small.
 
 ### Phase 5: Backup and Recovery
 - Created a PostgreSQL database backup using `pg_dump`.
@@ -93,20 +93,24 @@ university-student-records-security-system/
 ## Setup Instructions
 
 1. Install PostgreSQL 18 and pgAdmin 4.
-2. Create a PostgreSQL database named `university_records`.
-3. Connect to the database using pgAdmin.
-4. Execute the SQL scripts in the following order:
+2. Create a PostgreSQL database named university_records.
+3. Connect to university_records using pgAdmin 4.
+4. Execute the following SQL scripts in order:
 
 ```text
 01_database_setup.sql
 02_roles_permissions_rls.sql
 03_audit_triggers.sql
+04_performance_optimization.sql
 05_1_security_tests.sql
-05_2_university_records_restore_test.sql
 06_monitoring_maintenance.sql
 ```
 
-**Important:** Review the scripts before running them. The security setup requires the appropriate PostgreSQL login roles, and the security tests contain intentional permission-denied operations. Run those tests separately. Execute `VACUUM` commands outside transaction blocks.
+5. Create a database backup using pg_dump.
+6. Restore the backup into a separate database named university_records_restore_test using pg_restore.
+7. Connect to university_records_restore_test and execute 05_2_university_records_restore_test.sql to verify the restored records and security features.
+
+**Important:** PostgreSQL login roles must be created before assigning permissions. Run intentional permission-denied security tests separately, and execute VACUUM commands outside transaction blocks.
 
 ## Testing and Verification
 
@@ -145,7 +149,7 @@ Database backups containing records and sensitive credentials are not included i
 ## Team
 
 **CSCE 4355 – Team 1**
-**Sameeha Alikhan | sa2494**
+** Sameeha Alikhan (sa2494) – []**
 
 ## Project Status
 
