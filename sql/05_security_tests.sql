@@ -56,7 +56,7 @@ SET grade = 93,
 WHERE grade_id = 1
 RETURNING grade_id, grade, letter_grade;
 
-ROLLBACK
+ROLLBACK;
 
 -- Test unauthorized instructor grade update
 BEGIN;
@@ -120,6 +120,7 @@ WHERE rolname IN (
 )
 ORDER BY rolname;
 
+-- Produces an error. Run separately. 
 BEGIN;
 
 SET LOCAL ROLE student_1;
