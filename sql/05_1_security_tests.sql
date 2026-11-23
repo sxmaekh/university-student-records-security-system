@@ -131,3 +131,10 @@ WHERE grade_id = 1;
 
 ROLLBACK;
 
+SELECT
+    schemaname,
+    tablename,
+    rowsecurity AS rls_enabled
+FROM pg_tables
+WHERE schemaname = 'academics'
+ORDER BY tablename;
