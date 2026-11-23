@@ -231,4 +231,7 @@ The project was assigned as a team project; however, all project development, im
 
 **Database implementation and testing completed.**
 
-All six technical phases have been implemented and tested. Final documentation and presentation materials are being prepared.
+All six technical phases have been implemented and tested. Final documentation and presentation materials are completed.
+
+- Final Project Report: [report/Team1_Final_Project_GitHub_And_Video_Demo.pdf](https://github.com/sxmaekh/university-student-records-security-system/blob/main/report/Team1_Final_Project_Report.pdf)
+- Final Project Video Demonstration: [Team 1 CSCE 4355 Final Project Video Submission](https://youtu.be/kuMauPw4mVs?si=bxiw3twldpH39EgL) 
