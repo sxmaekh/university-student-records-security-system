@@ -8,7 +8,7 @@ This project implements a secure university student records database using Postg
 
 The system manages students, instructors, courses, enrollments, and grades while demonstrating database administration techniques, including role-based access control, row-level security, auditing, performance optimization, backup and recovery, and database monitoring.
 
-The entire project, including the initial project proposal, database design, implementation, testing, documentation, and GitHub repository management, was completed by Sameeha Alikhan & Samuel Asadu.
+The entire project, including the initial project proposal, database design, implementation, testing, documentation, and GitHub repository management, was completed independently by Sameeha Alikhan.
 
 ## Technologies Used
 
@@ -179,11 +179,11 @@ Database backups containing records and sensitive credentials are not included i
 
 ## Project Proposal and Documentation
 
-The initial CSCE 4355 Team 1 project proposal was prepared by Sameeha Alikhan.
+The initial CSCE 4355 Team 1 project proposal was independently prepared by Sameeha Alikhan.
 
 The proposal established the project's objectives, database security focus, technical approach, and planned implementation phases.
 
-Sameeha Alikhan & Samuel Asadu also completed the SQL implementation, database testing, performance evaluation, backup and recovery verification, monitoring, screenshot evidence collection, and GitHub project documentation.
+Sameeha Alikhan also independently completed the SQL implementation, database testing, performance evaluation, backup and recovery verification, monitoring, screenshot evidence collection, and GitHub project documentation.
 
 ## Individual Contributions
 
@@ -191,6 +191,7 @@ Sameeha Alikhan & Samuel Asadu also completed the SQL implementation, database t
 
 **Role: Project Lead, Database Designer, Developer, Database Administrator, Tester, and Documentation Author**
 
+Completed 100% of the project work independently, including:
 
 - Developed and wrote the original project proposal.
 - Planned the project objectives, technical requirements, and implementation phases.
@@ -202,11 +203,6 @@ Sameeha Alikhan & Samuel Asadu also completed the SQL implementation, database t
 - Implemented and tested database access restrictions.
 - Developed audit functions, triggers, and audit tables.
 - Tested and verified database auditing functionality.
-
-**Samuel Asadu (sia0052)** 
-
-**Role: Developer, Database Administrator, Tester**
-
 - Created performance indexes and evaluated query execution.
 - Conducted performance testing and documented results.
 - Created and verified database backups.
@@ -219,8 +215,7 @@ Sameeha Alikhan & Samuel Asadu also completed the SQL implementation, database t
 - Prepared the README and technical project documentation.
 - Completed implementation, verification, and final project preparation.
 
-
-**All technical implementation, testing, and documentation work was completed by Sameeha Alikhan & Samuel Asadu.**
+**All technical implementation, testing, and documentation work was completed by Sameeha Alikhan without contributions from the other team members.**
 
 ## Team
 
@@ -229,9 +224,8 @@ Sameeha Alikhan & Samuel Asadu also completed the SQL implementation, database t
 **Project Work Completed By:**
 
 Sameeha Alikhan (sa2494)
-Samuel Asadu (sia0052)
 
-The project was assigned as a team project; all project development, implementation, testing, and documentation were completed by Sameeha Alikhan & Samuel Asadu.
+The project was assigned as a team project; however, all project development, implementation, testing, and documentation were completed independently by Sameeha Alikhan.
 
 ## Project Status
 
