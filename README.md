@@ -220,7 +220,7 @@ Sameeha Alikhan & Samuel Asadu also completed the SQL implementation, database t
 - Completed implementation, verification, and final project preparation.
 
 
-**All technical implementation, testing, and documentation work was completed by Sameeha Alikhan without contributions from the other team members.**
+**All technical implementation, testing, and documentation work was completed by Sameeha Alikhan & Samuel Asadu.**
 
 ## Team
 
